@@ -1,0 +1,46 @@
+import { Project } from "@/types"
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "Credit Card System Backend Support",
+    description: "Backend logic validation and data integrity management for financial card processing systems.",
+    longDescription: "Engineered robust backend validation logic for credit card processing systems, ensuring accurate customer number handling and maintaining strict data integrity standards. Implemented comprehensive testing protocols and debugging procedures within financial system environments to guarantee process reliability and operational stability.",
+    tags: ["Backend Development", "Financial Systems", "Data Validation", "System Testing"],
+    featured: true,
+    githubUrl: "https://github.com/yourusername/credit-card-backend",
+    createdAt: new Date("2024-01-15"),
+  },
+  {
+    id: "2",
+    title: "FSD/TSD Documentation & System Mapping",
+    description: "Functional requirement analysis and comprehensive system workflow documentation.",
+    longDescription: "Conducted in-depth functional requirement analysis and mapped CR Forms into Functional Specification Documents (FSD) and Technical Specification Documents (TSD). Developed detailed workflow documentation and clarified complex system logic to effectively bridge business requirements with technical implementation strategies.",
+    tags: ["Documentation", "Requirements Engineering", "System Analysis", "Technical Writing"],
+    featured: true,
+    githubUrl: "https://github.com/yourusername/fsd-tsd-mapping",
+    createdAt: new Date("2024-02-20"),
+  },
+  {
+    id: "3",
+    title: "Web-Based System Development",
+    description: "REST API architecture with authentication and comprehensive CRUD functionality.",
+    longDescription: "Architected and implemented a scalable REST API with secure authentication mechanisms and full CRUD operations. Designed optimized database schemas and structured backend logic following clean architecture principles to ensure maintainability and extensibility of the web-based system.",
+    tags: ["REST API", "Authentication", "Database Design", "Backend Architecture"],
+    featured: true,
+    githubUrl: "https://github.com/yourusername/web-system",
+    liveUrl: "https://web-system-demo.vercel.app",
+    createdAt: new Date("2024-03-10"),
+  },
+  {
+    id: "4",
+    title: "reddy.id – Web Platform Development",
+    description: "Full-stack web platform with responsive design and performance optimization.",
+    longDescription: "Developed a comprehensive web platform integrating frontend and backend systems with responsive implementation across devices. Implemented performance optimization strategies and component-based architecture to ensure maintainability. Configured deployment pipelines and established scalability planning for future growth.",
+    tags: ["Full-Stack", "Performance Optimization", "Deployment", "Scalability"],
+    featured: true,
+    githubUrl: "https://github.com/yourusername/reddy-id",
+    liveUrl: "https://reddy.id",
+    createdAt: new Date("2024-04-05"),
+  },
+]
