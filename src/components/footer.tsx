@@ -80,7 +80,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground text-sm">
-          <p>&copy; {new Date().getFullYear()} Portfolio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Zuda Yudistira. All rights reserved.</p>
         </div>
       </div>
     </footer>
